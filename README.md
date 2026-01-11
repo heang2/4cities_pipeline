@@ -26,6 +26,7 @@ conda create -n us_city_pred python=3.10 -y
 conda activate us_city_pred
 pip install -r requirements.txt
 ```
+Direct installation is likely to fail, you can also install it separately or use Google Colab
 
 ## 1.LODES raw data processing
 We are using using the data from the [LODES](https://lehd.ces.census.gov/data/lodes/)  dataset provided by the U.S. Census Bureau.The LODES dataset includes commuting data for the workforce in all states across the United States over multiple years, which have been widely used in existing studies.
@@ -38,6 +39,7 @@ We are using using the data from the [LODES](https://lehd.ces.census.gov/data/lo
 
 ## 3.Traffic assignment
 We have already used a relatively sophisticated traffic assignment method in our previous work, so we can directly use the [Colab code](https://colab.research.google.com/drive/19iGXJAHx5_vvoZMbOmbBXdTwxzVogB2V?usp=sharing) and [github code](https://github.com/xuxiaotong/A_unified_and_validated_traffic_dataset_for_20_U.S._cities) for this step.
+After running the above code, it is necessary to save the result data output by Traffic assignment, such as assignment_desult.csv and network.csv, for the next step.
 
 
 ## 4.ArcGIS urban congestion visualization and accessibility analysis
