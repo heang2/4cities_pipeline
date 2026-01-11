@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ## 1.LODES raw data processing
-We are using using the data from the[LODES](https://lehd.ces.census.gov/data/lodes/)  dataset provided by the U.S. Census Bureau.The LODES dataset includes commuting data for the workforce in all states across the United States over multiple years, which have been widely used in existing studies.
+We are using using the data from the [LODES](https://lehd.ces.census.gov/data/lodes/)  dataset provided by the U.S. Census Bureau.The LODES dataset includes commuting data for the workforce in all states across the United States over multiple years, which have been widely used in existing studies.
 
 
 
