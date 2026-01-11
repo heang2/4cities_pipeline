@@ -26,7 +26,7 @@ conda create -n us_city_pred python=3.10 -y
 conda activate us_city_pred
 pip install -r requirements.txt
 ```
-Direct installation is likely to fail, you can also install it separately or use Google Colab
+Direct installation is likely to fail, you can also install it separately or use [Google Colab](https://colab.research.google.com/).
 
 ## 1.LODES raw data processing
 We are using using the data from the [LODES](https://lehd.ces.census.gov/data/lodes/)  dataset provided by the U.S. Census Bureau.The LODES dataset includes commuting data for the workforce in all states across the United States over multiple years, which have been widely used in existing studies.
