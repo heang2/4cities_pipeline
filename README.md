@@ -72,6 +72,12 @@ We use arcgis to visualize VOC images of cities.You can also refer to this [GitH
 
 
 ## Basic information on 4 representative U.S. cities we select as e.g.
+
+<p align="center">
+ <img width="949" height="548" alt="image" src="https://github.com/user-attachments/assets/e9e6e36d-50e8-4cfa-bbc2-e7a1f08a01c9" />
+<p>
+
+ 
 | No. | City          | State        | Time Zone    | Census 2020 | Land Area (km²) | Population Density | Congestion Ranking |
 |---:|---------------|--------------|--------------|------------:|----------------:|-------------------:|-------------------:|
 | 1  | San Francisco | California   | Pacific Time | 873,965     | 121.5           | 7,195              | 3                  |
