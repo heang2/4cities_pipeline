@@ -1,6 +1,7 @@
 # 4cites_pipeline
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)(https://anghe-mark-intelligence.github.io/Forcasting-4-cites-in-us/))	
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Project Page](https://img.shields.io/badge/Project-Page-blue)]([https://eavianwoo.github.io/singsPage/](https://anghe-mark-intelligence.github.io/Forcasting-4-cites-in-us/))	
+[![arXiv]([https://img.shields.io/badge/arXiv-2406.12345-b31b1b.svg)](https://img.shields.io/badge/arVix-2000.12345-red)](https://remaintobeseen)	
 
 [**Forcasting four representative cities of their future traffic conditions**](https://remaintobeseen)
 
