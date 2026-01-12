@@ -67,6 +67,16 @@ After running the above code, it is necessary to save the result data output by 
 ### 4.1 ArcGIS cities congestion visualization
 We use arcgis to visualize VOC images of cities.You can also refer to this [GitHub repo](https://github.com/xuxiaotong/A_unified_and_validated_traffic_dataset_for_20_U.S._cities).In the step3,the output file including assignment_result.csv and network.csv,network.csv can be used to visualize the road network of cities' road network and assignment_result.csv including road network speed data and congestion level, we can put it into ArcGIS to output VOC maps.
 
+
+### 4.2 accessibility analysis
+In this section,We use [matplotlib.pyplot (plt)](https://matplotlib.org/stable/index.html)、[LineCollection](https://matplotlib.org/stable/api/collections_api.html#matplotlib.collections.LineCollection)、[Normalize](https://matplotlib.org/stable/api/_as_gen/matplotlib.colors.Normalize.html) to visualize the accessibility of different income area(e.g.10mins).
+
+<p align="center">
+ <img width="1014" height="506" alt="c300abd2d0a943f7bd1a02485aa8ef6a" src="https://github.com/user-attachments/assets/c51ebe16-b852-4f46-8acb-713d6ed7cfc8" />
+<p>
+
+
+ 
 ## More features
 The code below can be used to help you analyze the OD you predict in step 2.
 
