@@ -47,12 +47,15 @@ Then, run this code. You can get the network data ('cityname_link.csv' and 'city
 This step will output the OD martix of the state/city,by processing historical data,we can get data in different year of the same city.Then,using OD martix,we can move on to the next step:Time series model prediction of OD flow data.
 
 ## 2.Time series model prediction of OD flow data
-We are using a time series model, so you need enough years of time series data to input into the model.So we suggest that you have as much historical OD data as possible to avoid ARIMA oscillatory behavior.
+We are using a time series model, so you need enough years of time series data to input into the model.So we suggest that you have as much historical OD data as possible to avoid ARIMA oscillatory.
 
 OD_predict_pr_and_analysis folder:‘main.py’ is the main entrance of code. To run this code:
 
-First,please fill in the historical year od data of the city you need in od_ historical data one folder for one year.
+First,please fill in the historical year od data of the city you need in od_historical data one folder for one year.
 
+Second,define start_historical_year、end_historical_year、start_forecast_year、end_forecast_year,it represent the input od data and the future od data will be forecasted.
+
+Then,run this code(Default is parallel).You can obtain the OD probability matrix for future years.We need real OD traffic flow as traffic assignment, so we calibrate it with SSP data.Use the code generate_od_from_pr.py,define the SSP_BY_YEAR and run the code,then you can get od_matrix,using transformation_csv.py to convert the entire OD matrix into the forms of O-ID, D_ID, and number,then We can move to the next step.
 
 
 ## 3.Traffic assignment
