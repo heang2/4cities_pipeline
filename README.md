@@ -33,10 +33,15 @@ Direct installation is likely to fail, you can also install it separately or use
 We are using using the data from the [LODES](https://lehd.ces.census.gov/data/lodes/)  dataset provided by the U.S. Census Bureau.The LODES dataset includes commuting data for the workforce in all states across the United States over multiple years, which have been widely used in existing studies.
 
 OD_process folder: ‘main.py’ is the main entrance of code. To run this code:
+
 First, please define the state/city/download file path according to your need.
+
 Second, prepare the raw 'od' and 'xwalk' files from LODES dataset. For raw 'od' file, please rename 'state_xwalk.csv' to 'xwalk.csv' ; for raw 'xwalk' file, please rename 'state_od_main_JT00_2019.csv' to 'od2019.csv'. Put these two raw files in your download file path.
+
 Then, run this code. You can get the network data ('cityname_link.csv' and 'cityname_node.csv') and the corresponding tract level OD data ('cityname_od.csv'). The given code is for downloading LODES version 7 of 2019, you can also adjust the code for downloading version 8 and other years.
+
 00_Download_LODES.py: code for downloading LODES dataset.
+
 01_Check_corruption_or_loss: code for checking the corruption or loss of the downloaded LODES dataset.
 
 
