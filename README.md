@@ -1,5 +1,5 @@
 # 4cites_pipeline
-[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://anghe-mark-intelligence.github.io/Forcasting-4-cites-in-us/)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://anghe-mark-intelligence.github.io/4cites_project_page/)
 [![arXiv](https://img.shields.io/badge/arVix-2000.12345-red)](https://remaintobeseen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
