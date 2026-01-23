@@ -104,6 +104,10 @@ The code below can be used to help you analyze the OD you predict in step 2.
 | 4  | Pittsburgh    | Pennsylvania | Eastern Time | 302,971     | 143.5           | 2,112              | 9                  |
 
 
+
+## Cite
+If you find the code useful, please cite:
+
 ## License
 
 MIT License
