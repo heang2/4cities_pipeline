@@ -93,7 +93,7 @@ The code below can be used to help you analyze the OD you predict in step 2.
 
 
 ## Dataset
-We have open-source historical OD data of representative cities, which can be accessed at:
+Dataset of 20 cites is available.We have open-source historical OD data of representative cities, which can be accessed at:
 
 
 ## Workflow
